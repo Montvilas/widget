@@ -1,0 +1,13 @@
+.button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+.button:focus {
+    outline: none;
+}
+
+.volume {
+    width: 40px;
+    height: 40px;
+}

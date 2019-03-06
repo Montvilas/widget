@@ -1,0 +1,26 @@
+ .right {
+     display: inline-block;
+     float:right;
+ }
+
+ .left {
+     display: inline-block;
+ }
+
+ .expandedRow {
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 20px;
+ }
+ .stationImg {
+     width: 150px;
+     height: 150px;
+     -webkit-border-radius: 50%;
+     -moz-border-radius: 50%;
+     -ms-border-radius: 50%;
+     border-radius: 50%;
+     border: 3px solid #a2abbd;
+ }
