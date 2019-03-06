@@ -1,13 +1,13 @@
 import React from 'react';
 
-import Aux from '../../hoc/Aux';
+import Wrap from '../../hoc/Wrap';
 import Button from '../../UI/Buttons/Button/Button';
 import './Layout.css';
 import off from '../../UI/Buttons/ButtonImages/switch.png';
 import back from '../../UI/Buttons/ButtonImages/back-arrow.png';
 
 const layout = (props) => (
-    <Aux>
+    <Wrap>
         <div className="header">
             <Button btnType={"return"}
                     img={back}/>
@@ -20,15 +20,15 @@ const layout = (props) => (
         {
             props.nowPlaying.length > 0
                 ? (
-                    <Aux>
+                    <Wrap>
                         <b className={"nowPlaying"}>CURRENTLY PLAYING</b>
                         <h1 className={"stationName"}>{props.nowPlaying}</h1>
-                    </Aux>
+                    </Wrap>
                 )
                 : null
         }
         </div>
-    </Aux>
+    </Wrap>
 );
 
 export default layout;
