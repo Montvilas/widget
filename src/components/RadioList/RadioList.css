@@ -1,0 +1,8 @@
+.radioList {
+    background-color: #272733;
+    color: #a2abbd;
+    font-family: "Lato", sans-serif;
+    padding: 20px 0px;
+    height: 400px;
+    overflow-y: scroll;
+}
