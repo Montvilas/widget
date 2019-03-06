@@ -1,7 +1,8 @@
 import React from 'react';
+
 import RowExpansion from './RowExpansion/RowExpansion';
 import "./Station.css";
-import Aux from "../../../../hoc/Aux";
+import Aux from "../../../hoc/Aux";
 
 const station = (props) => (
     <Aux>
